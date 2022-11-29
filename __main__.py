@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	#filename = 'simulations/HOS_expt_time_151.mat' # train_evo=2899, test_evo=100, steps=110, i_x=151
 	#filename = 'simulations/HOS_expt_spec_126.mat' # train_evo=2899, test_evo=100, steps=110, i_x=126
 	#filename = 'simulations/SC_time_276.mat' # train_evo=1250, test_evo=50, steps=200, i_x=276
-	filename = '/home/disno/RNNnonlinear_v2/simulations/SC_spec_251.mat' # train_evo=1250, test_evo=50, steps=200, i_x=251
+	filename = './simulations/SC_spec_251.mat' # train_evo=1250, test_evo=50, steps=200, i_x=251
 	#filename = 'simulations/norm_NLSE_time_256.mat' # train_evo=950, test_evo=50, steps=101, i_x=256
 	#filename = 'simulations/norm_NLSE_spec_128.mat' # train_evo=950, test_evo=50, steps=101, i_x=128
 	#filename = 'simulations/chirped_NLSE_time_256.mat' # train_evo=5900, test_evo=100, steps=101, i_x=256, added_params=10
