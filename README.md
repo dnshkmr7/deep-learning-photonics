@@ -70,4 +70,4 @@ Transmixer: A hybrid transformer and cnn architecture for polyp segmentation,
 
 [10] Cao, K., Zhang, T. & Huang, J. Advanced hybrid LSTM-transformer
 architecture for real-time multi-task prediction in engineering systems. Sci Rep 14,
-4890 (2024). https://doi.org/10.1038/s41598-024-55483-x
+4890 (2024).
