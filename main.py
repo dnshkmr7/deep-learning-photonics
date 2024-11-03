@@ -1,3 +1,4 @@
+import json
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -8,16 +9,19 @@ from loader import *
 from spectrumtransformer import *
 from train import *
 
-n_bins = 512
-nheads = 16
-nlayers = 6
-initial_lr = 1e-4 
-weight_decay = 1e-5
-decay_factor = 0.5
-scheduler_patience = 5  
-batch_size = 16     
-num_epochs = 100
-model_patience = 10
+with open('hyperparameters.json', 'r') as f:
+    hyperparams = json.load(f)
+
+n_bins = hyperparams['n_bins']
+nheads = hyperparams['nheads']
+nlayers = hyperparams['nlayers']
+initial_lr = hyperparams['initial_lr']
+weight_decay = hyperparams['weight_decay']
+decay_factor = hyperparams['decay_factor']
+scheduler_patience = hyperparams['scheduler_patience']
+batch_size = hyperparams['batch_size']
+num_epochs = hyperparams['num_epochs']
+model_patience = hyperparams['model_patience']
 
 param_dim = 3
 input_dim = n_bins
