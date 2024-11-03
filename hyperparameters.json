@@ -1,0 +1,12 @@
+{
+    "n_bins": 512,
+    "nheads": 16,
+    "nlayers": 6,
+    "initial_lr": 0.0001,
+    "weight_decay": 0.00001,
+    "decay_factor": 0.5,
+    "scheduler_patience": 5,
+    "batch_size": 16,
+    "num_epochs": 100,
+    "model_patience": 10
+}
