@@ -31,7 +31,7 @@ This code implements a framework for loading, preprocessing, and splitting spect
 
 ## main.py
 
-This script runs the supercontinuum prediction pipeline, loading hyperparameters, creating the model, training it on the specified dataset, evaluating its performance and visualising on a held-out test set.
+This script runs the supercontinuum prediction pipeline, loading hyperparameters, creating the model, training it on the specified dataset, evaluating its performance and visualising on a held-out test set. Test loss is ```0.0250```.
 
 # References
 
